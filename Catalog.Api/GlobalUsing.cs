@@ -1,0 +1,17 @@
+﻿global using Carter;
+global using Mapster;
+global using MediatR;
+global using BuildingBocks.CQRS;
+global using System.ComponentModel;
+global using System.Reflection;
+global using Catalog.Api.Models;
+global using Marten;
+global using Catalog.Api.Exceptions;
+global using FluentValidation;
+global using BuildingBocks.Behaviors;
+global using BuildingBocks.Exceptions.Handler;
+global using Catalog.Api.Data;
+global using Catalog.Api.Products.CreateProducts;
+global using Marten.Pagination;
+global using HealthChecks.UI.Client;
+global using Microsoft.AspNetCore.Diagnostics.HealthChecks;
